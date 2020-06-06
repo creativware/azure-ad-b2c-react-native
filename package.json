@@ -1,0 +1,53 @@
+{
+    "name": "azure-ad-b2c-react-native",
+    "version": "1.0.0",
+    "description": "Azure AD B2C authentication, intended for use in React Native, cross-platform mobile applications. Does not require ejection. TypeScript declaration included.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/creativware/azure-ad-b2c-react-native.git"
+    },
+    "keywords": [
+        "react-native",
+        "Azure",
+        "AD",
+        "B2C",
+        "Authentication",
+        "TypeScipt",
+        "Ejectless"
+    ],
+    "author": "Steven Blasi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/creativware/azure-ad-b2c-react-native/issues"
+    },
+    "homepage": "https://github.com/creativware/azure-ad-b2c-react-native",
+    "peerDependencies": {
+        "react": "^16.8.3",
+        "react-native-webview": "^7.0.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^25.2.3",
+        "jest": "^26.0.1",
+        "rollup": "^2.13.1",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-peer-deps-external": "^2.2.2",
+        "rollup-plugin-typescript2": "^0.27.1",
+        "ts-jest": "^26.1.0",
+        "typescript": "^3.9.5"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "testEnvironment": "node"
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-native": "^0.62.2",
+        "react-native-webview": "^10.2.3"
+    }
+}
